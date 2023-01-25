@@ -7303,6 +7303,7 @@ textarea.form-control-lg {
 
 .mt-0 {
   margin-top: 0 !important;
+  color: white;
 }
 
 .mt-1 {
@@ -7367,6 +7368,7 @@ textarea.form-control-lg {
 
 .mb-2 {
   margin-bottom: 0.5rem !important;
+  color: white;
 }
 
 .mb-3 {
@@ -11392,7 +11394,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11463,3 +11465,75 @@ header.masthead h1, header.masthead .h1 {
 .col-lg-3 {
   margin: 0 auto;
 }
+li {
+  padding-left: 20px; /* one space of the list items */
+}
+ul {
+  list-style-position: inside;
+}
+
+.fa-wix{
+color: white;
+
+
+}
+.fa-linkedin{
+  color: #0072b1;
+}
+
+.fa-github{
+  color: white;
+}
+
+.bg-img {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/hills.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.plants {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/planttwo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.water {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.4) 0%, rgba(92, 77, 66, 0.4) 100%), url("../assets/img/water.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.grass {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/grass.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.transparentText {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+.transparentText p {
+  margin: 5%;
+  font-weight: bolder;
+  color: 000000;
+  font-size: 20px;
+}
+
